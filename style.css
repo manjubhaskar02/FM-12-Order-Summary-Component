@@ -1,0 +1,38 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --blue: hsl(245, 75%, 52%, 0.5);
+    --hover-blue: hsl(245, 75%, 52%, 0.8);
+}
+
+.red-hat {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.mobile {
+    display: none;
+}
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:500px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}

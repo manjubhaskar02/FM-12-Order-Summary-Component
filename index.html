@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+
+<body
+  class="red-hat  flex justify-center flex-col items-center mx-auto h-screen w-[375px] text-center bg-[var(--Pale-blue)] lg:w-[500px]">
+  <img class="mobile absolute top-0 z-[-1]" src="images/pattern-background-mobile.svg" alt=" image">
+  <img class="desktop absolute  top-0 z-[-1] animate-[bounce_4s_ease-in-out_infinite]"
+    src="images/pattern-background-desktop.svg" alt="image">
+  <main
+    class=" relative px-6 py-[4.5em]  animate__animated animate__backInDown  drop-shadow-[0_35px_35px_rgba(0,0,139,0.25)] ">
+    <header class="pt-20">
+      <img class="rounded-t-2xl animate__animated animate__flip  " src="images/illustration-hero.svg" alt="hero">
+    </header>
+    <section class="bg-white rounded-b-2xl py-10 lg:pt-14 lg:pb-12 ">
+      <div class="px-8 lg:px-12">
+        <h1 class="text-[var(--Dark-blue)] font-black text-[1.4em]  leading-[24px] lg:text-[1.75em]"> Order Summary
+        </h1>
+        <p class="font-medium  text-base text-[var(--Desaturated-blue)] py-5"> You can now listen to millions of songs,
+          audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+      </div>
+      <div
+        class="flex justify-between gap-6 p-4  lg:p-6 mt-0 mx-6 mb-6 lg:mx-11 lg:mb-7 rounded-md text-sm  lg:gap-20 bg-[var(--Very-pale-blue)]">
+        <div class="flex ">
+          <img class="animate-bounce" src="images/icon-music.svg" alt="music">
+          <p class="lg:text-[16px] animate-pulse ">
+            <span class="text-[var(--Dark-blue)] font-bold "> Annual Plan
+            </span>
+            <span class="text-[var(--Desaturated-blue)]"> $59.99/year
+            </span>
+          </p>
+        </div>
+        <a class="text-[var(--Bright-blue)] font-bold underline hover:text-[var(--hover-blue)] hover:no-underline "
+          href="#">Change</a>
+      </div>
+      <button
+        class=" text-[var(--Very-pale-blue)] font-bold bg-[var(--Bright-blue)] text-base py-3 px-16 rounded-xl lg:px-24 shadow-lg shadow-[var(--blue)] hover:bg-[var(--hover-blue)]">
+        Proceed to Payment
+      </button>
+      <div class=" text-[var(--Desaturated-blue)] font-black tetx-[15px] pt-6 hover:text-[var(--Dark-blue)] "> Cancel
+        Order
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Manju Bhaskar</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
