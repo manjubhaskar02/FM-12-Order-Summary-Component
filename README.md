@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/manjubhaskar02/FM-12-Order-Summary-Component](https://github.com/manjubhaskar02/FM-12-Order-Summary-Component)
+- Live Site URL: [https://manjubhaskar02.github.io/FM-12-Order-Summary-Component/](https://manjubhaskar02.github.io/FM-12-Order-Summary-Component/)
 
 ## My process
 
